@@ -1,0 +1,133 @@
+[ 2014-02-14T17:11:35+08:00 ] 127.0.0.1 /myproject/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2014-02-14T17:16:53+08:00 ] 127.0.0.1 /myproject/admin/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+ERR: 非法操作:index
+
+[ 2014-02-14T17:16:59+08:00 ] 127.0.0.1 /myproject/Admin/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+ERR: 非法操作:index
+
+[ 2014-02-14T17:17:05+08:00 ] 127.0.0.1 /myproject/Admin/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+ERR: 非法操作:index
+
+[ 2014-02-14T17:18:10+08:00 ] 127.0.0.1 /myproject/Home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\wamp\www\myproject\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2014-02-14T17:18:35+08:00 ] 127.0.0.1 /myproject/Admin/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+ERR: 非法操作:index
+
+[ 2014-02-14T17:19:01+08:00 ] 127.0.0.1 /myproject/Admin/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2014-02-14T17:39:46+08:00 ] 127.0.0.1 /myproject/Admin/Public/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\myproject\Application\Runtime\Cache\Admin\3c5566b2bfbf6ef00ac5366ba47246fe.php 第 5 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\3c5566b2bfbf6ef00ac5366ba47246fe.php 第 29 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\3c5566b2bfbf6ef00ac5366ba47246fe.php 第 54 行.
+NOTIC: [8] Use of undefined constant ONETHINK_VERSION - assumed 'ONETHINK_VERSION' D:\wamp\www\myproject\Application\Runtime\Cache\Admin\3c5566b2bfbf6ef00ac5366ba47246fe.php 第 93 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2014-02-14T17:41:38+08:00 ] 127.0.0.1 /myproject/Admin/Public/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-02-14T17:41:38+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Public/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+ERR: 非法操作:verify
+
+[ 2014-02-14T17:45:18+08:00 ] 127.0.0.1 /myproject/Admin/Public/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2014-02-14T17:45:18+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Public/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+

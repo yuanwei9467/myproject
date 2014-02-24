@@ -1,0 +1,852 @@
+[ 2014-02-20T15:09:30+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2014-02-20T15:09:30+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:09:51+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:16:27+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2014-02-20T15:16:28+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:17:32+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2014-02-20T15:17:32+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:18:19+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:18:51+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001880s ]
+
+[ 2014-02-20T15:18:51+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:18:51+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:24:47+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2014-02-20T15:24:47+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:25:30+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:25:49+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2014-02-20T15:25:49+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:25:49+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:28:29+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2014-02-20T15:28:29+08:00 ] 127.0.0.1 /myproject/Admin/js/bootstrap.min.js
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+ERR: 无法加载控制器:Js
+
+[ 2014-02-20T15:29:36+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2014-02-20T15:31:35+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2014-02-20T15:32:56+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2014-02-20T15:34:03+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2014-02-20T15:37:15+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2014-02-20T15:37:40+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2014-02-20T15:38:13+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2014-02-20T16:33:08+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2014-02-20T16:33:10+08:00 ] 127.0.0.1 /myproject/index.php/Admin/category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+
+[ 2014-02-20T16:35:31+08:00 ] 127.0.0.1 /myproject/index.php/Admin/category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+
+[ 2014-02-20T16:35:58+08:00 ] 127.0.0.1 /myproject/index.php/Admin/ategory/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载控制器:Ategory
+
+[ 2014-02-20T16:36:03+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+
+[ 2014-02-20T16:36:14+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2014-02-20T16:37:22+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 5 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 29 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 54 行.
+NOTIC: [8] Use of undefined constant ONETHINK_VERSION - assumed 'ONETHINK_VERSION' D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 93 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.044111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2014-02-20T17:25:15+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 5 行.
+NOTIC: [8] Undefined variable: main_list D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 29 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 54 行.
+NOTIC: [8] Use of undefined constant ONETHINK_VERSION - assumed 'ONETHINK_VERSION' D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 93 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2014-02-20T17:27:34+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 5 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 29 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 54 行.
+NOTIC: [8] Use of undefined constant ONETHINK_VERSION - assumed 'ONETHINK_VERSION' D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 93 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2014-02-20T17:32:05+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 5 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 29 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 54 行.
+NOTIC: [8] Use of undefined constant ONETHINK_VERSION - assumed 'ONETHINK_VERSION' D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 93 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2014-02-20T17:34:38+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 5 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 29 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 54 行.
+NOTIC: [8] Use of undefined constant ONETHINK_VERSION - assumed 'ONETHINK_VERSION' D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 93 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-02-20T17:39:32+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 5 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 29 行.
+NOTIC: [8] Undefined variable: __MENU__ D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 54 行.
+NOTIC: [8] Use of undefined constant ONETHINK_VERSION - assumed 'ONETHINK_VERSION' D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 93 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2014-02-20T17:39:51+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+ERR: 没有定义数据库配置
+
+[ 2014-02-20T17:41:15+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+ERR: 没有定义数据库配置
+
+[ 2014-02-20T17:42:05+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+ERR: 没有定义数据库配置
+
+[ 2014-02-20T17:42:06+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+ERR: 没有定义数据库配置
+
+[ 2014-02-20T17:42:08+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+ERR: 没有定义数据库配置
+
+[ 2014-02-20T17:42:43+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.003741s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000251s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%Category%' ) AND ( `pid` = 0 ) LIMIT 1   [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+
+[ 2014-02-20T17:42:46+08:00 ] 127.0.0.1 /myproject/index.php/Admin/ategory/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+ERR: 无法加载控制器:Ategory
+
+[ 2014-02-20T17:42:49+08:00 ] 127.0.0.1 /myproject/index.php/Admin/ategory/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+ERR: 无法加载控制器:Ategory
+
+[ 2014-02-20T17:42:59+08:00 ] 127.0.0.1 /myproject/index.php/Admin/category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.003973s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%Category%' ) AND ( `pid` = 0 ) LIMIT 1   [ RunTime:0.000187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-02-20T17:43:02+08:00 ] 127.0.0.1 /myproject/index.php/Admin/ategory/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+ERR: 无法加载控制器:Ategory
+
+[ 2014-02-20T17:43:54+08:00 ] 127.0.0.1 /myproject/Admin/Category/index
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.003984s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000280s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%Category%' ) AND ( `pid` = 0 ) LIMIT 1   [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+
+[ 2014-02-20T17:52:13+08:00 ] 127.0.0.1 /myproject/Admin/News
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.004149s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000283s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%News/index%' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 2 )  [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-02-20T17:52:19+08:00 ] 127.0.0.1 /myproject/Admin/Category/index
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.003961s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%Category/index%' ) LIMIT 1   [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: child_list D:\wamp\www\myproject\Application\Admin\Controller\CommonController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 5 行.
+NOTIC: [8] Use of undefined constant ONETHINK_VERSION - assumed 'ONETHINK_VERSION' D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 93 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2014-02-20T17:52:40+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Index/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2014-02-20T17:53:41+08:00 ] 127.0.0.1 /myproject/Admin/Category/index
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.004141s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000279s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%Category/index%' ) LIMIT 1   [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: child_list D:\wamp\www\myproject\Application\Admin\Controller\CommonController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 5 行.
+NOTIC: [8] Use of undefined constant ONETHINK_VERSION - assumed 'ONETHINK_VERSION' D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 93 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2014-02-20T17:53:44+08:00 ] 127.0.0.1 /myproject/index.php/Admin/News/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.003708s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000286s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%News/index%' ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 2 )  [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2014-02-20T17:53:49+08:00 ] 127.0.0.1 /myproject/index.php/Admin/News/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.005262s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000280s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%News/index%' ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 2 )  [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2014-02-20T17:53:52+08:00 ] 127.0.0.1 /myproject/index.php/Admin/category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.004232s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000267s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%Category/index%' ) LIMIT 1   [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: child_list D:\wamp\www\myproject\Application\Admin\Controller\CommonController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 5 行.
+NOTIC: [8] Use of undefined constant ONETHINK_VERSION - assumed 'ONETHINK_VERSION' D:\wamp\www\myproject\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 93 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2014-02-20T17:53:54+08:00 ] 127.0.0.1 /myproject/index.php/Admin/News/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.005427s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000328s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%News/index%' ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 2 )  [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2014-02-20T18:00:25+08:00 ] 127.0.0.1 /myproject/index.php/Admin/News/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.004777s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000405s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%News/index%' ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 2 )  [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2014-02-20T18:00:31+08:00 ] 127.0.0.1 /myproject/index.php/Admin/Category/index.html
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\wamp\www\myproject\ThinkPHP\Library\Think\Hook.class.php 第 55 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.003676s ]
+SQL: SELECT * FROM `menu` WHERE ( `pid` = 0 )  [ RunTime:0.000225s ]
+SQL: SELECT * FROM `menu` WHERE ( `url` LIKE '%Category/index%' ) LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: child_list D:\wamp\www\myproject\Application\Admin\Controller\CommonController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
