@@ -1,0 +1,9 @@
+[ 2014-02-25T14:55:53+08:00 ] 127.0.0.1 /myproject/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2014-02-25T14:56:01+08:00 ] 127.0.0.1 /myproject/Admin/Public/page-infrastructure.html
+ERR: 非法操作:page-infrastructure
+
+[ 2014-02-25T14:56:05+08:00 ] 127.0.0.1 /myproject/Admin/Public/page-inbox.html
+ERR: 非法操作:page-inbox
+

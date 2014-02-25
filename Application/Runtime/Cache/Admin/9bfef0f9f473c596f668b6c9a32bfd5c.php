@@ -345,7 +345,7 @@
                                     <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $str = count(explode('-',$vo['bpath'])); ?>
                                     <option value="<?php echo ($vo["id"]); ?>">
                                         |
-                                        <?php $__FOR_START_20547__=0;$__FOR_END_20547__=$str;for($i=$__FOR_START_20547__;$i < $__FOR_END_20547__;$i+=1){ ?>——<?php } ?>
+                                        <?php $__FOR_START_15255__=0;$__FOR_END_15255__=$str;for($i=$__FOR_START_15255__;$i < $__FOR_END_15255__;$i+=1){ ?>——<?php } ?>
                                         <?php echo ($vo["name"]); ?>
                                     </option><?php endforeach; endif; else: echo "" ;endif; ?>
                                 </select>
@@ -398,7 +398,7 @@
                     <td class="center ">
                         |
                         <?php $str = count(explode('-',$vo['bpath'])); ?>
-                        <?php $__FOR_START_18112__=0;$__FOR_END_18112__=$str;for($i=$__FOR_START_18112__;$i < $__FOR_END_18112__;$i+=1){ ?>——<?php } ?>
+                        <?php $__FOR_START_4484__=0;$__FOR_END_4484__=$str;for($i=$__FOR_START_4484__;$i < $__FOR_END_4484__;$i+=1){ ?>——<?php } ?>
                         <?php echo ($vo["name"]); ?>
                     </td>
 
