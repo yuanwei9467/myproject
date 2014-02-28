@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en"><head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -11,29 +11,29 @@
 
 
     <!-- Stylesheets -->
-    <link href="__CSS__/bootstrap.css" rel="stylesheet">
+    <link href="/myproject/Public/Admin/css/bootstrap.css" rel="stylesheet">
     <!-- Font awesome icon -->
-    <link rel="stylesheet" href="__CSS__/font-awesome.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/font-awesome.css">
     <!-- jQuery UI -->
-    <link rel="stylesheet" href="__CSS__/jquery-ui.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/jquery-ui.css">
     <!-- Calendar -->
-    <link rel="stylesheet" href="__CSS__/fullcalendar.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/fullcalendar.css">
     <!-- prettyPhoto -->
-    <link rel="stylesheet" href="__CSS__/prettyPhoto.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/prettyPhoto.css">
     <!-- Star rating -->
-    <link rel="stylesheet" href="__CSS__/rateit.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/rateit.css">
     <!-- Date picker -->
-    <link rel="stylesheet" href="__CSS__/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/bootstrap-datetimepicker.css">
     <!-- jQuery Gritter -->
-    <link rel="stylesheet" href="__CSS__/jquery.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/jquery.css">
     <!-- CLEditor -->
-    <link rel="stylesheet" href="__CSS__/jquery_002.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/jquery_002.css">
     <!-- Bootstrap toggle -->
-    <link rel="stylesheet" href="__CSS__/bootstrap-switch.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/bootstrap-switch.css">
     <!-- Main stylesheet -->
-    <link href="__CSS__/style.css" rel="stylesheet">
+    <link href="/myproject/Public/Admin/css/style.css" rel="stylesheet">
     <!-- Widgets stylesheet -->
-    <link href="__CSS__/widgets.css" rel="stylesheet">
+    <link href="/myproject/Public/Admin/css/widgets.css" rel="stylesheet">
 
 
 
@@ -48,28 +48,28 @@
 
 
 <!-- JS -->
-<script src="__JS__/jquery.js"></script> <!-- jQuery -->
-<script src="__JS__/bootstrap.js"></script> <!-- Bootstrap -->
-<script src="__JS__/jquery-ui-1.js"></script> <!-- jQuery UI -->
-<script src="__JS__/fullcalendar.js"></script> <!-- Full Google Calendar - Calendar -->
-<script src="__JS__/jquery_003.js"></script> <!-- RateIt - Star rating -->
-<script src="__JS__/jquery_006.js"></script> <!-- prettyPhoto -->
+<script src="/myproject/Public/Admin/js/jquery.js"></script> <!-- jQuery -->
+<script src="/myproject/Public/Admin/js/bootstrap.js"></script> <!-- Bootstrap -->
+<script src="/myproject/Public/Admin/js/jquery-ui-1.js"></script> <!-- jQuery UI -->
+<script src="/myproject/Public/Admin/js/fullcalendar.js"></script> <!-- Full Google Calendar - Calendar -->
+<script src="/myproject/Public/Admin/js/jquery_003.js"></script> <!-- RateIt - Star rating -->
+<script src="/myproject/Public/Admin/js/jquery_006.js"></script> <!-- prettyPhoto -->
 
 <!-- jQuery Flot -->
-<script src="__JS__/excanvas.js"></script>
-<script src="__JS__/jquery_005.js"></script>
-<script src="__JS__/jquery_009.js"></script>
-<script src="__JS__/jquery_007.js"></script>
-<script src="__JS__/jquery_002.js"></script>
+<script src="/myproject/Public/Admin/js/excanvas.js"></script>
+<script src="/myproject/Public/Admin/js/jquery_005.js"></script>
+<script src="/myproject/Public/Admin/js/jquery_009.js"></script>
+<script src="/myproject/Public/Admin/js/jquery_007.js"></script>
+<script src="/myproject/Public/Admin/js/jquery_002.js"></script>
 
-<script src="__JS__/jquery_004.js"></script> <!-- jQuery Gritter -->
-<script src="__JS__/sparklines.js"></script> <!-- Sparklines -->
-<script src="__JS__/jquery_008.js"></script> <!-- CLEditor -->
-<script src="__JS__/bootstrap-datetimepicker.js"></script> <!-- Date picker -->
-<script src="__JS__/bootstrap-switch.js"></script> <!-- Bootstrap Toggle -->
-<script src="__JS__/filter.js"></script> <!-- Filter for support page -->
-<script src="__JS__/custom.js"></script> <!-- Custom codes -->
-<script src="__JS__/charts.js"></script> <!-- Custom chart codes -->
+<script src="/myproject/Public/Admin/js/jquery_004.js"></script> <!-- jQuery Gritter -->
+<script src="/myproject/Public/Admin/js/sparklines.js"></script> <!-- Sparklines -->
+<script src="/myproject/Public/Admin/js/jquery_008.js"></script> <!-- CLEditor -->
+<script src="/myproject/Public/Admin/js/bootstrap-datetimepicker.js"></script> <!-- Date picker -->
+<script src="/myproject/Public/Admin/js/bootstrap-switch.js"></script> <!-- Bootstrap Toggle -->
+<script src="/myproject/Public/Admin/js/filter.js"></script> <!-- Filter for support page -->
+<script src="/myproject/Public/Admin/js/custom.js"></script> <!-- Custom codes -->
+<script src="/myproject/Public/Admin/js/charts.js"></script> <!-- Custom chart codes -->
 
 
 
@@ -336,7 +336,169 @@
 <div class="mainbar">
     <div class="matter">
         <div class="container">
-            {__CONTENT__}
+            <div class="row">
+    <div class="col-lg-12">
+        <div class="box">
+            <div class="widget wlightblue">
+                <div class="widget-head">
+                    <div class="pull-left">新增意见</div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+
+            <div class="box-content">
+                <form role="form" class="form-horizontal" method="post" action="<?php echo U('save');?>">
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">标题</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="title"  class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">类型</label>
+                        <div class="col-sm-4">
+                            <?php if(is_array($type)): $i = 0; $__LIST__ = $type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><input type="checkbox" id="inlineCheckbox1" value="<?php echo ($vo["id"]); ?>"> <?php echo ($vo["name"]); endforeach; endif; else: echo "" ;endif; ?>
+
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">创建人</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="user" value=""  class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">内容</label>
+                        <div class="col-sm-4">
+                            <textarea class="form-control" rows="3">
+
+                            </textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">上传附件</label>
+                        <div class="col-sm-4">
+                            <button class="btn btn-info"  data-toggle="modal" data-target="#myModal"  type="button">
+                                请选择
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                        <div class="col-sm-4">
+                            <button type="button" class="btn btn-info">新增</button>
+                        </div>
+
+                    </div>
+
+                </form>
+
+                <style>
+                    .fileinput-button input {
+                        cursor: pointer;
+                        direction: ltr;
+                        font-size: 200px;
+                        margin: 0;
+                        opacity: 0;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+                </style>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="myModalLabel">上传附件</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form data-ng-class="" data-file-upload="options" data-ng-controller="DemoFileUploadController" data-ng-app="demo" enctype="multipart/form-data" method="POST" action="" id="fileupload" class="ng-scope ng-pristine ng-valid">
+
+                                    <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+                                    <div class="row fileupload-buttonbar">
+                                        <div class="">
+                                            <!-- The fileinput-button span is used to style the file input field as button -->
+                                        <span ng-class="" class="btn btn-success fileinput-button">
+                                            <i class="glyphicon glyphicon-plus"></i>
+                                            <span>Add files...</span>
+                                            <input type="file" ng-disabled="disabled" multiple="" name="files[]">
+                                        </span>
+                                            <button data-ng-click="submit()" class="btn btn-primary start" type="button">
+                                                <i class="glyphicon glyphicon-upload"></i>
+                                                <span>Start upload</span>
+                                            </button>
+                                            <button data-ng-click="cancel()" class="btn btn-warning cancel" type="button">
+                                                <i class="glyphicon glyphicon-ban-circle"></i>
+                                                <span>Cancel upload</span>
+                                            </button>
+                                            <!-- The global file processing state -->
+                                            <span class="fileupload-process"></span>
+                                        </div>
+                                        <!-- The global progress state -->
+                                        <div data-ng-class="{in: active()}" class="col-lg-5 fade">
+                                            <!-- The global progress bar -->
+                                            <div data-file-upload-progress="progress()" class="progress progress-striped active ng-scope"><div data-ng-style="{width: num + '%'}" class="progress-bar progress-bar-success" style=""></div></div>
+                                            <!-- The extended global progress state -->
+                                            <div class="progress-extended">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- The table listing the files available for upload/download -->
+                                    <table class="table table-striped files">
+                                        <tbody>
+                                        </tbody></table>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+<script src="http://blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
+<script src="http://blueimp.github.io/JavaScript-Load-Image/js/load-image.min.js"></script>
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="/myproject/Public/Admin/js/upload/jquery.ui.widget.js" type="text/javascript"></script>
+<script src="/myproject/Public/Admin/js/upload/jquery.fileupload.js" type="text/javascript"></script>
+<script src="/myproject/Public/Admin/js/upload/jquery.fileupload-angular.js" type="text/javascript"></script>
+<script src="/myproject/Public/Admin/js/upload/jquery.fileupload-audio.js" type="text/javascript"></script>
+<script src="/myproject/Public/Admin/js/upload/jquery.fileupload-image.js" type="text/javascript"></script>
+<script src="/myproject/Public/Admin/js/upload/jquery.fileupload-process.js" type="text/javascript"></script>
+<script src="/myproject/Public/Admin/js/upload/jquery.fileupload-ui.js" type="text/javascript"></script>
+<script src="/myproject/Public/Admin/js/upload/jquery.fileupload-validate.js" type="text/javascript"></script>
+<script src="/myproject/Public/Admin/js/upload/jquery.fileupload-video.js" type="text/javascript"></script>
+<script src="/myproject/Public/Admin/js/upload/jquery.iframe-transport.js" type="text/javascript"></script>
+<script src="/myproject/Public/Admin/js/upload/main.js" type="text/javascript"></script>
+
+<script src="/myproject/Public/Admin/js/upload/app.js" type="text/javascript"></script>
+
+
+
+
+
         </div>
     </div>
 

@@ -48,7 +48,7 @@ class Hook {
                     self::$tags[$tag]   =   array();            
                 if(!empty($val['_overlay'])){
                     // 可以针对某个标签指定覆盖模式
-                    unset($val['_overlay']);
+                    //unset($val['_overlay']);
                     self::$tags[$tag]   =   $val;
                 }else{
                     // 合并模式
