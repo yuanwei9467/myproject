@@ -287,6 +287,7 @@ class Mysql extends Db{
             $values[]    = '('.implode(',', $value).')';
         }
         $sql   =  ($replace?'REPLACE':'INSERT').' INTO '.$this->parseTable($options['table']).' ('.implode(',', $fields).') VALUES '.implode(',',$values);
+
         return $this->execute($sql);
     }
 

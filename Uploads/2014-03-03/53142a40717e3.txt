@@ -1,0 +1,4 @@
+php.ini中加上extension=php_com_dotnet.dll
+因为php5.4以后就不内嵌com了。
+
+服务器上的php.ini中的com.allow_dcom = true我将它前面的；去掉了

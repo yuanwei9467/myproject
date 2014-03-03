@@ -328,6 +328,7 @@ class Model {
         foreach ($dataList as $key=>$data){
             $dataList[$key] = $this->_facade($data);
         }
+
         // 写入数据到数据库
         $result = $this->db->insertAll($dataList,$options,$replace);
         if(false !== $result ) {

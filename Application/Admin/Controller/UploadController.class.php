@@ -14,15 +14,22 @@ class UploadController extends \Think\Controller{
        }
 
        public function upload(){
-           $configs = array(
-               ''
-           )
+
            $upload = new \Think\Upload();
 
-           if(!$upload->upload()) {// 上传错误提示错误信息
-               $this->error($upload->getError());
+           if(!$data = $upload->upload()) {// 上传错误提示错误信息
+               echo $upload->getError();
+               exit;
            }else{// 上传成功
-               $this->success('上传成功！');
+               $attachemt_model = D('Attachments');
+               $row = $attachemt_model->saveFiles($data['files']);
+               if($row){
+                   echo json_encode($row);
+                   exit;
+               }else{
+
+               }
+
            }
        }
 

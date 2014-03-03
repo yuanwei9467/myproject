@@ -13,14 +13,13 @@ use Think\Hook;
 
 class PublicController extends Controller{
     public function login(){
-        Hook::listen('action_begin');
-        if(IS_POST){
-            $username   = I('username');
-            $password   = I('password');
-            $verify     = I('verify');
-        }else{
-            $this->display();
+        layout(false);
+        if(cookie('username')){
+            $this->assign('remeber',1);
         }
+        $this->display();
+
+
     }
     /**
      * 显示验证码
@@ -28,5 +27,22 @@ class PublicController extends Controller{
     public function verify(){
         $Verify = new \Think\Verify();
         $Verify->entry();
+    }
+
+    /**
+     * 验证登陆
+     */
+    public function checklogin(){
+        $username = I('username');
+        $password = I('password');
+        $remeber = I('remeber');
+        $user_model = D('Member');
+        $row = $user_model->checklogin($username,$password,$remeber);
+        if($row){
+            $this->success('登陆成功','Index/index');
+        }else{
+            $this->error('用户名或密码错误');
+        }
+
     }
 }

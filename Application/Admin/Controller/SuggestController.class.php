@@ -31,6 +31,7 @@ class SuggestController extends \Think\Controller{
 
         $this->assign('type',$this->suggest_model->getType());
 
+
         $this->display();
     }
 
@@ -38,6 +39,8 @@ class SuggestController extends \Think\Controller{
      * 保存意见信息
      */
     public function save(){
+        $name = I('title');
+        $type_id = I('type');
 
     }
 

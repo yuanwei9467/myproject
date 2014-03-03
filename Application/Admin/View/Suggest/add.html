@@ -7,7 +7,9 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
+            <div class="alert">
 
+            </div>
 
             <div class="box-content">
                 <form role="form" class="form-horizontal" method="post" action="{:U('save')}">
@@ -55,6 +57,15 @@
 
                         </div>
                     </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                        <div class="col-sm-4">
+                            <ul class="list-group file-list">
+
+                            </ul>
+                        </div>
+                    </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label"></label>
                         <div class="col-sm-4">
@@ -81,53 +92,22 @@
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
+                        <form method="post" enctype="multipart/form-data" action="{:U('upload/upload')}" id="upload-form">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                 <h4 class="modal-title" id="myModalLabel">上传附件</h4>
                             </div>
                             <div class="modal-body">
-                                <form data-ng-class="" data-file-upload="options" data-ng-controller="DemoFileUploadController" data-ng-app="demo" enctype="multipart/form-data" method="POST" action="" id="fileupload" class="ng-scope ng-pristine ng-valid">
+                                <input type="file" name="files" >
 
-                                    <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
-                                    <div class="row fileupload-buttonbar">
-                                        <div class="">
-                                            <!-- The fileinput-button span is used to style the file input field as button -->
-                                        <span ng-class="" class="btn btn-success fileinput-button">
-                                            <i class="glyphicon glyphicon-plus"></i>
-                                            <span>Add files...</span>
-                                            <input type="file" ng-disabled="disabled" multiple="" name="files[]">
-                                        </span>
-                                            <button data-ng-click="submit()" class="btn btn-primary start" type="button">
-                                                <i class="glyphicon glyphicon-upload"></i>
-                                                <span>Start upload</span>
-                                            </button>
-                                            <button data-ng-click="cancel()" class="btn btn-warning cancel" type="button">
-                                                <i class="glyphicon glyphicon-ban-circle"></i>
-                                                <span>Cancel upload</span>
-                                            </button>
-                                            <!-- The global file processing state -->
-                                            <span class="fileupload-process"></span>
-                                        </div>
-                                        <!-- The global progress state -->
-                                        <div data-ng-class="{in: active()}" class="col-lg-5 fade">
-                                            <!-- The global progress bar -->
-                                            <div data-file-upload-progress="progress()" class="progress progress-striped active ng-scope"><div data-ng-style="{width: num + '%'}" class="progress-bar progress-bar-success" style=""></div></div>
-                                            <!-- The extended global progress state -->
-                                            <div class="progress-extended">&nbsp;</div>
-                                        </div>
-                                    </div>
-                                    <!-- The table listing the files available for upload/download -->
-                                    <table class="table table-striped files">
-                                        <tbody>
-                                        </tbody></table>
-                                </form>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn btn-primary" id="upload">提交</button>
                             </div>
                         </div><!-- /.modal-content -->
+                        </form>
                     </div><!-- /.modal-dialog -->
                 </div><!-- /.modal -->
 
@@ -141,6 +121,31 @@
 
     </div>
 </div>
+<script>
+    $(function(){
+        $('#upload').click(function(){
+            $('#upload-form').ajaxSubmit({
+                dataType:"json",
+                success:function(data){
+                    if(data.name){
+                        $('.file-list').after('<li class="list-group-item"><i class="icon-remove"></i>'+data.name+'<input type="hidden" value="'+data.id+'" name="file_id[]"></li>');
+                        $('#myModal').modal('hide');
+                    }else{
+                        $('.alert').html('<div class="alert alert-danger"><strong>错误!</strong>上传失败</div>')
+                    }
+                }
+            })
+        })
+        $('body').on('click','.icon-remove',function(){
+                $(this).parents('li').remove();
+        })
+
+
+    })
+
+</script>
+<script src="__JS__/jquery.form.js" type="text/javascript"></script>
+<!--
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
 <script src="http://blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
 <script src="http://blueimp.github.io/JavaScript-Load-Image/js/load-image.min.js"></script>
@@ -158,6 +163,7 @@
 <script src="__JS__/upload/main.js" type="text/javascript"></script>
 
 <script src="__JS__/upload/app.js" type="text/javascript"></script>
+-->
 
 
 

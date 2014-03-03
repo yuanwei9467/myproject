@@ -1,0 +1,86 @@
+采用独立分组
+项目在cms目录下 分为 home 和 admin
+
+
+
+1、实例化基础模型（Model） 类
+在没有定义任何模型的时候，我们可以使用下面的方法实例化一个模型类来进行操作：
+
+    //实例化User模型
+    $User = new Model('User');
+    //或者使用M()快捷方法实例化，和上面的方法是等效的
+    $User = M('User');
+    //执行其他的数据操作
+    $User->select();
+
+
+要实例化自定义模型类，可以使用下面的方式：
+
+    <?php
+        //实例化自定义模型
+        $User = new UserModel();
+        //或者使用D快捷方法
+        $User = D('User');
+        //执行具体的数据操作
+        $User->select();
+
+
+D方法还可以支持跨项目和分组调用，需要使用：
+
+    //实例化Admin项目的User模型
+    D('Admin://User')
+    //实例化Admin分组的User模型
+    D('Admin/User')
+
+
+如果你仅仅是使用原生SQL查询的话，不需要使用额外的模型类，实例化一个空模型类即可进行操作了，例如：
+
+    //实例化空模型
+    $Model = new Model();
+    //或者使用M快捷方法是等效的
+    $Model = M();
+    //进行原生的SQL查询
+    $Model->query('SELECT * FROM think_user WHERE status = 1');
+
+
+
+ThinkPHP没有改变原生的PHP系统变量获取方式，所以依然可以通过$_GET、 $_POST、$_SERVER、$_REQUEST 等方式来获取系统变量，不过系统的Action类提供了对系统变量的增强获取方法，包括对GET、POST、PUT、REQUEST、SESSION、COOKIE、SERVER和GLOBALS参数，除了获取变量值外，还提供变量过滤和默认值支持，用法很简单，只需要在Action中调用下面方法：
+$this->方法名("变量名",["过滤方法"],["默认值"])
+方法名可以支持：方法名 含义 
+_get 获取GET参数 
+_post 获取POST参数 
+_param 自动判断请求类型获取GET、POST或者PUT参数（3.1新增） 
+_request 获取REQUEST 参数 
+_put 获取PUT 参数 
+_session 获取 $_SESSION 参数 
+_cookie 获取 $_COOKIE 参数 
+_server 获取 $_SERVER 参数 
+_globals 获取 $GLOBALS参数 
+变量名：（必须）是要获取的系统变量的名称
+
+
+
+如果我们需要把一个用户数据对象赋值给模板变量：
+$User = M('name');
+$user = $User->find(1);
+$this->assign('user',$user);
+也就是说$user其实是一个数组变量，我们可以使用下面的方式来输出相关的值：
+{$user['name']}//输出用户的名称
+{$user['email']} //输出用户的email地址
+如果$user是一个对象而不是数组的话，
+$User = M('name');
+$User->find(1);
+$this->assign('user',$User);
+可以使用下面的方式输出相关的属性值：
+{$user:name}// 输出用户的名称
+{$user:email} // 输出用户的email地址
+3.1版本以后，类的属性输出方式有所调整，支持原生的PHP对象写法，所以上面的标签需要改成：
+{$user->name}// 输出用户的名称
+{$user->email} // 输出用户的email地址
+为了方便模板定义，还可以支持点语法，例如，上面的
+{$user['name']}// 输出用户的名称
+{$user['email']} // 输出用户的email地址
+可以改成
+{$user.name}
+{$user.email}
+
