@@ -263,18 +263,26 @@
             <li class="has_submenu nlightblue">
                 <a href="#">
                     <!-- Menu name with icon -->
-                    <i class="icon-th"></i> Widgets
+                    <i class="icon-th"></i> 流程管理
                     <!-- Icon for dropdown -->
                     <span class="pull-right"><i class="icon-angle-right"></i></span>
                 </a>
 
                 <ul style="display: none;">
-                    <li><a href="">Widgets #1</a></li>
+                    <li><a href="<?php echo U('Process/add');?>">新增流程</a></li>
                     <li><a href="">Widgets #2</a></li>
                 </ul>
             </li>
 
-            <li class="ngreen"><a href=""><i class="icon-bar-chart"></i> Charts</a></li>
+            <li class="has_submenu ngreen">
+                <a href="#"><i class="icon-bar-chart"></i> 事件管理(用户)
+                    <span class="pull-right"><i class="icon-angle-right"></i></span>
+                </a>
+                <ul style="display: none;">
+                    <li><a href="<?php echo U('Flowork/step1');?>">新增意见</a></li>
+                    <li><a href="">Widgets #2</a></li>
+                </ul>
+            </li>
 
             <li class="norange"><a href=""><i class="icon-sitemap"></i> UI Elements</a></li>
 

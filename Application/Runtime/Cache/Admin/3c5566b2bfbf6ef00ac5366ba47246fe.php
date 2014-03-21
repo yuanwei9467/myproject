@@ -48,8 +48,14 @@
         <?php else: ?>
             <form role="form" class="form-signin" method="post" action="<?php echo U('Public/checklogin');?>">
                 <h2 class="form-signin-heading">Please sign in</h2>
-                <input type="text" autofocus="" required="" placeholder="" class="form-control" name="username">
-                <input type="password" required="" placeholder="Password" class="form-control" name="password">
+                <div class="form-group">
+                    <label class="control-label">用户名</label>
+                    <input type="text" autofocus="" required="" placeholder="" class="form-control" name="username">
+                </div>
+                <div class="form-group">
+                    <label class="control-label">密码</label>
+                    <input type="password" required="" placeholder="Password" class="form-control" name="password">
+                </div>
                 <label class="checkbox">
                     <input type="checkbox" value="remember-me" name="remeber"> Remember me
                 </label>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en"><head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -11,29 +11,29 @@
 
 
     <!-- Stylesheets -->
-    <link href="__CSS__/bootstrap.css" rel="stylesheet">
+    <link href="/myproject/Public/Admin/css/bootstrap.css" rel="stylesheet">
     <!-- Font awesome icon -->
-    <link rel="stylesheet" href="__CSS__/font-awesome.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/font-awesome.css">
     <!-- jQuery UI -->
-    <link rel="stylesheet" href="__CSS__/jquery-ui.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/jquery-ui.css">
     <!-- Calendar -->
-    <link rel="stylesheet" href="__CSS__/fullcalendar.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/fullcalendar.css">
     <!-- prettyPhoto -->
-    <link rel="stylesheet" href="__CSS__/prettyPhoto.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/prettyPhoto.css">
     <!-- Star rating -->
-    <link rel="stylesheet" href="__CSS__/rateit.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/rateit.css">
     <!-- Date picker -->
-    <link rel="stylesheet" href="__CSS__/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/bootstrap-datetimepicker.css">
     <!-- jQuery Gritter -->
-    <link rel="stylesheet" href="__CSS__/jquery.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/jquery.css">
     <!-- CLEditor -->
-    <link rel="stylesheet" href="__CSS__/jquery_002.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/jquery_002.css">
     <!-- Bootstrap toggle -->
-    <link rel="stylesheet" href="__CSS__/bootstrap-switch.css">
+    <link rel="stylesheet" href="/myproject/Public/Admin/css/bootstrap-switch.css">
     <!-- Main stylesheet -->
-    <link href="__CSS__/style.css" rel="stylesheet">
+    <link href="/myproject/Public/Admin/css/style.css" rel="stylesheet">
     <!-- Widgets stylesheet -->
-    <link href="__CSS__/widgets.css" rel="stylesheet">
+    <link href="/myproject/Public/Admin/css/widgets.css" rel="stylesheet">
 
 
 
@@ -48,28 +48,28 @@
 
 
 <!-- JS -->
-<script src="__JS__/jquery.js"></script> <!-- jQuery -->
-<script src="__JS__/bootstrap.js"></script> <!-- Bootstrap -->
-<script src="__JS__/jquery-ui-1.js"></script> <!-- jQuery UI -->
-<script src="__JS__/fullcalendar.js"></script> <!-- Full Google Calendar - Calendar -->
-<script src="__JS__/jquery_003.js"></script> <!-- RateIt - Star rating -->
-<script src="__JS__/jquery_006.js"></script> <!-- prettyPhoto -->
+<script src="/myproject/Public/Admin/js/jquery.js"></script> <!-- jQuery -->
+<script src="/myproject/Public/Admin/js/bootstrap.js"></script> <!-- Bootstrap -->
+<script src="/myproject/Public/Admin/js/jquery-ui-1.js"></script> <!-- jQuery UI -->
+<script src="/myproject/Public/Admin/js/fullcalendar.js"></script> <!-- Full Google Calendar - Calendar -->
+<script src="/myproject/Public/Admin/js/jquery_003.js"></script> <!-- RateIt - Star rating -->
+<script src="/myproject/Public/Admin/js/jquery_006.js"></script> <!-- prettyPhoto -->
 
 <!-- jQuery Flot -->
-<script src="__JS__/excanvas.js"></script>
-<script src="__JS__/jquery_005.js"></script>
-<script src="__JS__/jquery_009.js"></script>
-<script src="__JS__/jquery_007.js"></script>
-<script src="__JS__/jquery_002.js"></script>
+<script src="/myproject/Public/Admin/js/excanvas.js"></script>
+<script src="/myproject/Public/Admin/js/jquery_005.js"></script>
+<script src="/myproject/Public/Admin/js/jquery_009.js"></script>
+<script src="/myproject/Public/Admin/js/jquery_007.js"></script>
+<script src="/myproject/Public/Admin/js/jquery_002.js"></script>
 
-<script src="__JS__/jquery_004.js"></script> <!-- jQuery Gritter -->
-<script src="__JS__/sparklines.js"></script> <!-- Sparklines -->
-<script src="__JS__/jquery_008.js"></script> <!-- CLEditor -->
-<script src="__JS__/bootstrap-datetimepicker.js"></script> <!-- Date picker -->
-<script src="__JS__/bootstrap-switch.js"></script> <!-- Bootstrap Toggle -->
-<script src="__JS__/filter.js"></script> <!-- Filter for support page -->
-<script src="__JS__/custom.js"></script> <!-- Custom codes -->
-<script src="__JS__/charts.js"></script> <!-- Custom chart codes -->
+<script src="/myproject/Public/Admin/js/jquery_004.js"></script> <!-- jQuery Gritter -->
+<script src="/myproject/Public/Admin/js/sparklines.js"></script> <!-- Sparklines -->
+<script src="/myproject/Public/Admin/js/jquery_008.js"></script> <!-- CLEditor -->
+<script src="/myproject/Public/Admin/js/bootstrap-datetimepicker.js"></script> <!-- Date picker -->
+<script src="/myproject/Public/Admin/js/bootstrap-switch.js"></script> <!-- Bootstrap Toggle -->
+<script src="/myproject/Public/Admin/js/filter.js"></script> <!-- Filter for support page -->
+<script src="/myproject/Public/Admin/js/custom.js"></script> <!-- Custom codes -->
+<script src="/myproject/Public/Admin/js/charts.js"></script> <!-- Custom chart codes -->
 
 
 
@@ -269,7 +269,7 @@
                 </a>
 
                 <ul style="display: none;">
-                    <li><a href="{:U('Process/add')}">新增流程</a></li>
+                    <li><a href="<?php echo U('Process/add');?>">新增流程</a></li>
                     <li><a href="">Widgets #2</a></li>
                 </ul>
             </li>
@@ -279,7 +279,7 @@
                     <span class="pull-right"><i class="icon-angle-right"></i></span>
                 </a>
                 <ul style="display: none;">
-                    <li><a href="{:U('Flowork/step1')}">新增意见</a></li>
+                    <li><a href="<?php echo U('Flowork/step1');?>">新增意见</a></li>
                     <li><a href="">Widgets #2</a></li>
                 </ul>
             </li>
@@ -293,8 +293,8 @@
                 </a>
 
                 <ul style="display: none;">
-                    <li><a href="{:U('Memeber/list')}">用户列表</a></li>
-                    <li><a href="{:U('Member/add')}">新增用户</a></li>
+                    <li><a href="<?php echo U('Memeber/list');?>">用户列表</a></li>
+                    <li><a href="<?php echo U('Member/add');?>">新增用户</a></li>
 
                 </ul>
             </li>
@@ -340,7 +340,69 @@
 <div class="mainbar">
     <div class="matter">
         <div class="container">
-            {__CONTENT__}
+            <div class="row">
+    <div class="col-lg-12">
+        <div class="box">
+            <div class="widget wlightblue">
+                <div class="widget-head">
+                    <div class="pull-left">新增流程</div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="alert">
+
+            </div>
+
+            <div class="box-content">
+                <form role="form" class="form-horizontal" method="post" action="<?php echo U('add');?>">
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">流程名称</label>
+                        <div class="col-sm-4">
+                            <input type="text" name="name"  class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                        <div class="col-sm-4">
+                            <button type="submit" class="btn btn-info">新增</button>
+                        </div>
+
+                    </div>
+
+
+                </form>
+
+                <style>
+                    .fileinput-button input {
+                        cursor: pointer;
+                        direction: ltr;
+                        font-size: 200px;
+                        margin: 0;
+                        opacity: 0;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+                </style>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+
         </div>
     </div>
 

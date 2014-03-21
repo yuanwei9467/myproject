@@ -39,7 +39,7 @@ class PublicController extends Controller{
         $user_model = D('Member');
         $row = $user_model->checklogin($username,$password,$remeber);
         if($row){
-            $this->success('登陆成功','Index/index');
+            $this->success('登陆成功',U('Index/index'));
         }else{
             $this->error('用户名或密码错误');
         }
